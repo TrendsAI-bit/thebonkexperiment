@@ -42,9 +42,9 @@ export default function BackgroundDoodles() {
         <path d="M12,5 Q8,0 4,5 Q4,10 12,18 Q20,10 20,5 Q16,0 12,5" />
       </svg>
       
-      {/* BONK text doodles */}
+      {/* SOL text doodles */}
       <svg className="doodle" style={{ top: '75%', right: '35%', width: '60px', height: '20px' }} viewBox="0 0 60 20">
-        <text x="5" y="15" fontFamily="Patrick Hand" fontSize="14" fill="none" strokeWidth="1">BONK!</text>
+        <text x="5" y="15" fontFamily="Patrick Hand" fontSize="14" fill="none" strokeWidth="1">SOL!</text>
       </svg>
       
       {/* Happy dog face doodles */}
@@ -60,6 +60,12 @@ export default function BackgroundDoodles() {
       <svg className="doodle" style={{ top: '30%', left: '2%', width: '30px', height: '25px' }} viewBox="0 0 30 25">
         <path d="M5,5 Q8,15 15,20 Q20,15 25,5" />
         <path d="M8,8 Q12,12 16,8" />
+      </svg>
+      
+      {/* Diamond hands doodle */}
+      <svg className="doodle" style={{ top: '85%', left: '25%', width: '30px', height: '30px' }} viewBox="0 0 30 30">
+        <path d="M15,5 L25,15 L15,25 L5,15 Z" />
+        <text x="15" y="18" textAnchor="middle" fontFamily="Patrick Hand" fontSize="8" fill="none" strokeWidth="1">💎</text>
       </svg>
     </div>
   );

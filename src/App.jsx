@@ -16,7 +16,7 @@ function App() {
           <div className="logo">
             <Logo />
           </div>
-          <p className="subtitle">Hold 1% of supply for 24h. Get 1000 BONK. It's that simple!</p>
+          <p className="subtitle">Hold 1% of supply for 24h. Get 1 SOL. It's that simple!</p>
           <p style={{ 
             fontSize: '1.2rem', 
             marginBottom: '20px', 

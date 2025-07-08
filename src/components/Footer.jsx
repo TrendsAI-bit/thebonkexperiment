@@ -30,7 +30,7 @@ export default function Footer() {
       </div>
       
       <p className="disclaimer">
-        This is an experiment. Not financial advice. But maybe genius. Good boy! 🐕
+        This is a SOL rewards experiment. Not financial advice. Diamond hands only! 💎🐕
       </p>
     </footer>
   );

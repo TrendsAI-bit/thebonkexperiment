@@ -9,19 +9,19 @@ export default function ComicStrip() {
     },
     {
       image: "/pose2.png", 
-      text: "No Sells till woof check and treats completed"
+      text: "No Sells till woof check and SOL treats completed"
     },
     {
       image: "/pose3.png",
-      text: "Get 1000 BONK for free! 🐕"
+      text: "Get 1 SOL for free! 🐕"
     },
     {
       image: "/pose4.png",
-      text: "Hold <1%? Enter treat bowl! Win 100-1000 BONK! 🦴"
+      text: "Hold <1%? Enter treat bowl! Qualify for 10 SOL pot! 🦴"
     },
     {
       image: "/pose1.png",
-      text: "48h + $1M Cap = 5000 BONK each to 1% pack! 💰"
+      text: "48h + $1M Cap = 10 SOLs to diamond hand holders! 💎"
     },
     {
       image: "/pose2.png",
