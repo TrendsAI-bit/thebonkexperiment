@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function Logo() {
   return (
     <img
-      src={`/logo.png?v=${Date.now()}`}
+      src="/logo.png?v=2024070801"
       alt="Bonk Dog Logo"
       style={{
         width: '100%',
