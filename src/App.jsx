@@ -12,9 +12,7 @@ function App() {
     <div className="app-container">
       <BackgroundDoodles />
       <header className="header">
-        <div className="logo">
-          <Logo />
-        </div>
+        <Logo />
         <p className="subtitle">Hold 1% of supply for 24h. Get 1000 BONK. It's that simple!</p>
       </header>
       <CountdownTimer />
