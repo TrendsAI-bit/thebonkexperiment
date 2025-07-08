@@ -17,7 +17,7 @@ function App() {
             <Logo />
           </div>
           <div className="experiment-title">
-            <h1 className="experiment-text">The Hold</h1>
+            <h1 className="experiment-text">The Bonk</h1>
             <h1 className="experiment-text">Experiment</h1>
             <div className="title-underline"></div>
           </div>
