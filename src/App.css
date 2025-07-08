@@ -13,6 +13,12 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
 /* Background doodles */
@@ -44,15 +50,28 @@ body {
 }
 
 .app-container {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Header Styles */
 .header {
   text-align: center;
-  margin-bottom: 40px;
+  margin: 0 auto 40px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   animation: float 3s ease-in-out infinite;
 }
 
@@ -60,7 +79,7 @@ body {
   width: 100%;
   max-width: 400px;
   height: 300px;
-  margin: 0 auto 30px;
+  margin: 0 auto 30px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,13 +97,14 @@ body {
 
 .subtitle {
   font-size: 1.5rem;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
   border: 2px solid #FFA500;
   padding: 15px;
   display: inline-block;
   transform: rotate(1deg);
   background: #fff;
   box-shadow: 3px 3px 0px #FFA500;
+  text-align: center;
 }
 
 /* Join Button */
@@ -102,7 +122,8 @@ body {
   display: inline-block;
   position: relative;
   text-shadow: 1px 1px 0px #000;
-  margin: 20px 0;
+  margin: 20px auto;
+  text-align: center;
 }
 
 .join-btn:hover {
@@ -114,14 +135,19 @@ body {
 /* Countdown Timer */
 .countdown-section {
   text-align: center;
-  margin: 60px 0;
+  margin: 60px auto;
+  width: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .timer-drawing {
   width: 180px;
   height: 200px;
-  margin: 0 auto 20px;
+  margin: 0 auto 20px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,6 +171,8 @@ body {
   display: inline-block;
   position: relative;
   box-shadow: 2px 2px 0px #FFA500;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .countdown-text::before {
@@ -176,7 +204,10 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  margin: 60px 0;
+  margin: 60px auto;
+  width: 100%;
+  max-width: 1000px;
+  justify-items: center;
 }
 
 .comic-panel {
@@ -189,6 +220,8 @@ body {
   box-shadow: 3px 3px 0px #FFA500;
   cursor: pointer;
   transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 350px;
 }
 
 .comic-panel:nth-child(2) {
@@ -206,7 +239,7 @@ body {
 .comic-panel img {
   width: 100px;
   height: 140px;
-  margin: 0 auto 20px;
+  margin: 0 auto 20px auto;
   object-fit: contain;
   filter: drop-shadow(2px 2px 0 #000);
 }
@@ -217,21 +250,29 @@ body {
   margin-top: 10px;
   color: #FFA500;
   text-shadow: 1px 1px 0px #000;
+  text-align: center;
 }
 
 /* Join Button Section */
 .join-btn-section {
   text-align: center;
-  margin: 40px 0;
+  margin: 40px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Live Tracker */
 .tracker-section {
-  margin: 60px 0;
+  margin: 60px auto;
   border: 2px solid #FFA500;
   padding: 30px;
   background: #fff;
   box-shadow: 3px 3px 0px #FFA500;
+  width: 100%;
+  max-width: 800px;
 }
 
 .tracker-title {
@@ -263,15 +304,17 @@ body {
 /* Footer */
 .footer {
   text-align: center;
-  margin-top: 60px;
+  margin: 60px auto 0 auto;
   border-top: 3px solid #FFA500;
   padding-top: 30px;
+  width: 100%;
+  max-width: 800px;
 }
 
 .contract-address {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
   border: 2px solid #FFA500;
   padding: 10px;
   display: inline-block;
@@ -279,6 +322,7 @@ body {
   box-shadow: 2px 2px 0px #FFA500;
   cursor: pointer;
   transition: transform 0.2s;
+  text-align: center;
 }
 
 .contract-address:hover {
@@ -286,7 +330,7 @@ body {
 }
 
 .social-icons {
-  margin: 20px 0;
+  margin: 20px auto;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -310,6 +354,7 @@ body {
   font-size: 0.9rem;
   margin-top: 20px;
   font-style: italic;
+  text-align: center;
 }
 
 /* Animations - Minimal and subtle */
@@ -333,6 +378,8 @@ body {
 @media (max-width: 768px) {
   .app-container {
     padding: 15px;
+    transform: none;
+    left: auto;
   }
   
   .subtitle {
