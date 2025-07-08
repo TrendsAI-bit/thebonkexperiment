@@ -16,6 +16,11 @@ function App() {
           <div className="logo">
             <Logo />
           </div>
+          <div className="experiment-title">
+            <h1 className="experiment-text">The Hold</h1>
+            <h1 className="experiment-text">Experiment</h1>
+            <div className="title-underline"></div>
+          </div>
           <p className="subtitle">Hold 1% of supply for 24h. Get 1 SOL. It's that simple!</p>
           <p style={{ 
             fontSize: '1.2rem', 

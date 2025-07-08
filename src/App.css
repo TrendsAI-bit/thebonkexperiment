@@ -79,7 +79,7 @@ body {
   width: 100%;
   max-width: 400px;
   height: 300px;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 20px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,6 +93,65 @@ body {
   width: 90%;
   height: 90%;
   object-fit: contain;
+}
+
+/* Experiment Title */
+.experiment-title {
+  text-align: center;
+  margin: 0 auto 30px auto;
+  position: relative;
+}
+
+.experiment-text {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+  margin: 5px 0;
+  text-shadow: 2px 2px 0px #FFA500;
+  line-height: 1;
+}
+
+.experiment-text:first-child {
+  transform: rotate(-1deg);
+}
+
+.experiment-text:last-child {
+  transform: rotate(1deg);
+}
+
+.title-underline {
+  width: 300px;
+  height: 5px;
+  background: #FFA500;
+  margin: 10px auto;
+  transform: rotate(-1deg);
+  border-radius: 2px;
+  position: relative;
+}
+
+.title-underline::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 20px;
+  width: 80px;
+  height: 3px;
+  background: #FFA500;
+  transform: rotate(2deg);
+  border-radius: 2px;
+}
+
+.title-underline::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 30px;
+  width: 60px;
+  height: 3px;
+  background: #FFA500;
+  transform: rotate(-3deg);
+  border-radius: 2px;
 }
 
 .subtitle {
@@ -380,6 +439,14 @@ body {
     padding: 15px;
     transform: none;
     left: auto;
+  }
+  
+  .experiment-text {
+    font-size: 2.2rem;
+  }
+  
+  .title-underline {
+    width: 200px;
   }
   
   .subtitle {
