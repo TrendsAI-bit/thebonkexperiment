@@ -3,14 +3,22 @@ import { useState } from 'react';
 
 export default function Footer() {
   const handleCopyAddress = () => {
-    navigator.clipboard.writeText('BoNk1ExP3r1m3nT...wQx2Y9z');
+    navigator.clipboard.writeText('5wVS7VWNuNG65pua1CcCHhjsWNJQDhWT3GDTcEfxbonk');
     alert('Contract address copied to clipboard!');
   };
 
   return (
     <footer className="footer">
       <div className="contract-address" onClick={handleCopyAddress}>
-        Contract: BoNk1ExP3r1m3nT...wQx2Y9z
+        <div style={{ fontSize: '1.4rem', fontWeight: 'bold', marginBottom: '10px', color: '#FFA500' }}>
+          🚀 OFFICIAL CONTRACT ADDRESS 🚀
+        </div>
+        <div style={{ fontSize: '1.1rem', fontFamily: 'monospace', wordBreak: 'break-all', lineHeight: '1.4' }}>
+          5wVS7VWNuNG65pua1CcCHhjsWNJQDhWT3GDTcEfxbonk
+        </div>
+        <div style={{ fontSize: '0.9rem', marginTop: '8px', fontStyle: 'italic' }}>
+          Click to copy to clipboard
+        </div>
       </div>
       
       <div className="social-icons">
