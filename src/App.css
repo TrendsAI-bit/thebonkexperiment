@@ -416,6 +416,78 @@ body {
   text-align: center;
 }
 
+/* Social Engagement Section */
+.social-engagement {
+  margin: 60px auto;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-content {
+  border: 3px dashed #000;
+  padding: 30px;
+  background: #fff;
+  text-align: center;
+  transform: rotate(-0.5deg);
+  position: relative;
+  box-shadow: 3px 3px 0px #000;
+}
+
+.social-content::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  border: 2px dashed #FFA500;
+  transform: rotate(1deg);
+  z-index: -1;
+}
+
+.social-content .social-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.social-content h3 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.bonus-text {
+  font-size: 1.4rem;
+  color: #FFA500;
+  font-weight: bold;
+  margin-bottom: 20px;
+  transform: rotate(1deg);
+}
+
+.sample-tweet {
+  border: 2px solid #000;
+  padding: 15px;
+  background: #f9f9f9;
+  margin-top: 20px;
+  transform: rotate(-0.5deg);
+  text-align: left;
+}
+
+.sample-tweet p {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.sample-tweet small {
+  color: #666;
+  font-size: 0.9rem;
+}
+
 /* Animations - Minimal and subtle */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
@@ -473,5 +545,25 @@ body {
   
   .tracker-section {
     padding: 20px;
+  }
+  
+  .social-engagement {
+    margin: 40px auto;
+  }
+  
+  .social-content {
+    padding: 20px;
+  }
+  
+  .social-content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .bonus-text {
+    font-size: 1.2rem;
+  }
+  
+  .sample-tweet {
+    padding: 10px;
   }
 }

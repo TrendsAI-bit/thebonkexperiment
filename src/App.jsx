@@ -43,6 +43,19 @@ function App() {
         <CountdownTimer />
         <ComicStrip />
         <JoinNowButton />
+        
+        <div className="social-engagement">
+          <div className="social-content">
+            <div className="social-icon">💎</div>
+            <h3>Join us on X and tag the project</h3>
+            <p className="bonus-text">→ Get +0.1 SOL Bonus!</p>
+            <div className="sample-tweet">
+              <p><strong>@hodler123:</strong> Just joined #TheBonkExperiment 🚀 Diamond hands only! 💎🙌</p>
+              <small>2 hours ago • 47 likes</small>
+            </div>
+          </div>
+        </div>
+        
         <LiveTracker />
         <Footer />
       </div>
