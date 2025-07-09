@@ -22,7 +22,10 @@ export default function LiveTracker() {
 
   return (
     <section className="tracker-section">
-      <h2 className="tracker-title">🐕 SOL Qualified Pack Members: 247</h2>
+      <h2 className="tracker-title">
+        <img src="/bonkface.png?v=5" alt="Bonk" style={{ width: '32px', height: '32px', verticalAlign: 'middle', marginRight: '8px' }} />
+        SOL Qualified Pack Members: 247
+      </h2>
       <ul className="wallet-list">
         {wallets.map((wallet, index) => (
           <li key={index} className="wallet-item">
