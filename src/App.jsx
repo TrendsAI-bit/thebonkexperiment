@@ -2,7 +2,6 @@ import './App.css';
 import Logo from './components/Logo';
 import CountdownTimer from './components/CountdownTimer';
 import ComicStrip from './components/ComicStrip';
-import JoinNowButton from './components/JoinNowButton';
 import LiveTracker from './components/LiveTracker';
 import Footer from './components/Footer';
 import BackgroundDoodles from './components/BackgroundDoodles';
@@ -40,7 +39,6 @@ function App() {
 
         <CountdownTimer />
         <ComicStrip />
-        <JoinNowButton />
         
         <div className="social-engagement">
           <div className="social-content">
