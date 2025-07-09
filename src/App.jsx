@@ -30,11 +30,13 @@ function App() {
             transform: 'rotate(0.5deg)', 
             background: '#fff' 
           }}>
-            Backed by 100 SOLs from <a href="https://x.com/MRzhangbolun" target="_blank" rel="noopener noreferrer" style={{ color: '#FFA500', textDecoration: 'underline' }}>
+                        Backed by 100 SOLs from <a href="https://x.com/MRzhangbolun" target="_blank" rel="noopener noreferrer" style={{ color: '#FFA500', textDecoration: 'underline' }}>
               https://x.com/MRzhangbolun
             </a>
           </p>
-
+          <div>
+            <a href="https://x.com/ExperimentBonk" target="_blank" rel="noopener noreferrer" className="join-btn">Join the Pack!</a>
+          </div>
         </header>
 
         <CountdownTimer />
