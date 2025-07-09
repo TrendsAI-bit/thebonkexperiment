@@ -21,6 +21,22 @@ function App() {
             <div className="title-underline"></div>
           </div>
           <p className="subtitle">Hold 1% of supply for 24h. Get 1 SOL. It's that simple!</p>
+          
+          <div className="hero-contract-address" onClick={() => {
+            navigator.clipboard.writeText('5wVS7VWNuNG65pua1CcCHhjsWNJQDhWT3GDTcEfxbonk');
+            alert('Contract address copied to clipboard!');
+          }}>
+            <div style={{ fontSize: '1.3rem', fontWeight: 'bold', color: '#FFA500', marginBottom: '8px' }}>
+              🚀 CONTRACT ADDRESS 🚀
+            </div>
+            <div style={{ fontSize: '0.9rem', fontFamily: 'monospace', wordBreak: 'break-all', lineHeight: '1.3' }}>
+              5wVS7VWNuNG65pua1CcCHhjsWNJQDhWT3GDTcEfxbonk
+            </div>
+            <div style={{ fontSize: '0.8rem', marginTop: '5px', fontStyle: 'italic', opacity: '0.8' }}>
+              Click to copy
+            </div>
+          </div>
+          
           <p style={{ 
             fontSize: '1.2rem', 
             marginBottom: '20px', 
