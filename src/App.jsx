@@ -35,9 +35,7 @@ function App() {
               https://x.com/MRzhangbolun
             </a>
           </p>
-          <div>
-            <a href="https://x.com/ExperimentBonk" target="_blank" rel="noopener noreferrer" className="join-btn">Join the Pack!</a>
-          </div>
+
         </header>
 
         <CountdownTimer />
@@ -52,6 +50,9 @@ function App() {
             <div className="sample-tweet">
               <p><strong>@hodler123:</strong> Just joined #TheBonkExperiment 🚀 Diamond hands only! 💎🙌</p>
               <small>2 hours ago • 47 likes</small>
+            </div>
+            <div style={{ marginTop: '20px' }}>
+              <a href="https://x.com/ExperimentBonk" target="_blank" rel="noopener noreferrer" className="join-btn">Tag the project @ExperimentBonk</a>
             </div>
           </div>
         </div>
