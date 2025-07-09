@@ -19,17 +19,6 @@ body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  cursor: url('/cursor-bonk-24.png?v=7') 12 12, url('/cursor-bonk-transparent.svg?v=7') 12 12, auto;
-}
-
-/* Custom cursor for all elements */
-* {
-  cursor: url('/cursor-bonk-24.png?v=7') 12 12, url('/cursor-bonk-transparent.svg?v=7') 12 12, auto;
-}
-
-/* Custom cursor for interactive elements */
-a, button, .join-btn, .comic-panel, .wallet-item, .contract-address, .social-icon {
-  cursor: url('/cursor-bonk-24.png?v=7') 12 12, url('/cursor-bonk-transparent.svg?v=7') 12 12, pointer;
 }
 
 /* Background doodles */
