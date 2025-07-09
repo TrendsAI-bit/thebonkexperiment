@@ -36,7 +36,7 @@ function App() {
             </a>
           </p>
           <div>
-            <a href="#" className="join-btn">Join the Pack!</a>
+            <a href="https://x.com/ExperimentBonk" target="_blank" rel="noopener noreferrer" className="join-btn">Join the Pack!</a>
           </div>
         </header>
 
